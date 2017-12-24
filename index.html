@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <div class="ramka">
+          <div class="ekranramka">
+            <div class="ekn">
+              <input type="text" class="ekran" id="ekran" disabled maxlength="12">
+            </div>
+          </div>
+          <div class="guziczki">
+            <form>
+            <input type=button value='0' class="zero" onclick="addvalue('0')">
+            <input type=button value='1' class="jeden" onclick="addvalue('1')">
+            <input type=button value='2' class="dwa" onclick="addvalue('2')">
+            <input type=button value='3' class="trzy" onclick="addvalue('3')">
+            <input type=button value='4' class="cztery" onclick="addvalue('4')">
+            <input type=button value='5' class="piec" onclick="addvalue('5')">
+            <input type=button value='6' class="szesc" onclick="addvalue('6')">
+            <input type=button value='7' class="siedem" onclick="addvalue('7')">
+            <input type=button value='8' class="osiem" onclick="addvalue('8')">
+            <input type=button value='9' class="dziewiec" onclick="addvalue('9')">
+            <input type=button value='/' class="dzielenie" onclick="addvalue('/')">
+            <input type=button value='*' class="mnozenie" onclick="addvalue('*')">
+            <input type=button value='-' class="odejmowanie" onclick="addvalue('-')">
+            <input type=button value='+' class="dodawanie" onclick="addvalue('+')">
+            <input type=button value='=' class="rownasie" onclick="rownasie()">
+            <input type=button value='c' class="kasuj" onclick="addvalue('c')">
+            <input type=button value='.' class="kropka" onclick="addvalue('.')">
+            </form>
+          </div>
+        </div>
+    </div>
+  </body>
+  <script src="js/script.js"></script>
+</html>

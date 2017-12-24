@@ -1,0 +1,333 @@
+* {
+  font-family: 'Bungee';
+  color: white;
+}
+body {
+  background: linear-gradient(to right, #2980b9, #2c3e50);
+                          /* tworzenie gradientu liniowego kolor pierwszy od prawej do lewej */
+  height: 100%;
+}
+
+
+.ramka {
+  /* Style for "editable c" */
+width: 312px;
+height: 355px;
+box-shadow: 0 0 3px rgba(0, 0, 0, 0.5), inset 0 0 3px rgba(255, 255, 255, 0.15);
+border: 1px solid #303030;
+background-color: #171717;
+background-image: linear-gradient(to top, #282828 0%, #393939 100%);
+border-radius: 5px;
+}
+
+.ekranramka {
+  /* Style for "screen fra" */
+width: 240px;
+height: 54px;
+box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.5), 0 0 2px rgba(255, 255, 255, 0.1);
+background-color: #232323;
+top: 30px;
+left: 2em;
+position: relative;
+border-radius: 5px;
+}
+
+.ekran {
+  /* Style for "green scre" */
+width: 234px;
+height: 46px;
+box-shadow: inset 0 2px 4px #6a781f, 0 0 2px rgba(255, 255, 255, 0.25), inset 0 0 6px rgba(75, 81, 43, 0.5);
+border: 1px solid #232323;
+background-color: #f0faba;
+background-image: linear-gradient(to top, #f0faba 0%, #bcc494 100%);
+position: relative;
+top: 0.1em;
+left: 0.1em;
+border-radius: 5px;
+color: black;
+font-size: 24px;
+}
+
+/*  --------------GUZIKI-----------*/
+
+.guziczki {
+  width: 312px;
+  height: 260px;
+  margin-top: 41px;
+}
+
+.zero {
+  /* Style for "bttn bg co" */
+width: 45px;
+height: 30px;
+box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45), 0 0 0 rgba(255, 255, 255, 0.05), inset 0 0 3px rgba(255, 255, 255, 0.25);
+border: 1px solid #000000;
+background-color: #313131;
+background-image: linear-gradient(to top, #181818 0%, #2c2c2c 100%);
+border-radius: 5px;
+position: absolute;
+text-align: center;
+line-height: 30px;
+left: 46px;
+top: 270px;
+}
+
+.jeden {
+  /* Style for "bttn bg co" */
+width: 45px;
+height: 30px;
+box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45), 0 0 0 rgba(255, 255, 255, 0.05), inset 0 0 3px rgba(255, 255, 255, 0.25);
+border: 1px solid #000000;
+background-color: #313131;
+background-image: linear-gradient(to top, #181818 0%, #2c2c2c 100%);
+border-radius: 5px;
+position: absolute;
+text-align: center;
+line-height: 30px;
+left: 46px;
+top: 220px;
+}
+
+.cztery {
+  /* Style for "bttn bg co" */
+width: 45px;
+height: 30px;
+box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45), 0 0 0 rgba(255, 255, 255, 0.05), inset 0 0 3px rgba(255, 255, 255, 0.25);
+border: 1px solid #000000;
+background-color: #313131;
+background-image: linear-gradient(to top, #181818 0%, #2c2c2c 100%);
+border-radius: 5px;
+position: absolute;
+text-align: center;
+line-height: 30px;
+left: 46px;
+top: 170px;
+}
+
+.siedem {
+  /* Style for "bttn bg co" */
+width: 45px;
+height: 30px;
+box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45), 0 0 0 rgba(255, 255, 255, 0.05), inset 0 0 3px rgba(255, 255, 255, 0.25);
+border: 1px solid #000000;
+background-color: #313131;
+background-image: linear-gradient(to top, #181818 0%, #2c2c2c 100%);
+border-radius: 5px;
+position: absolute;
+text-align: center;
+line-height: 30px;
+left: 46px;
+top: 120px;
+}
+
+.kropka {
+  /* Style for "bttn bg co" */
+width: 45px;
+height: 30px;
+box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45), 0 0 0 rgba(255, 255, 255, 0.05), inset 0 0 3px rgba(255, 255, 255, 0.25);
+border: 1px solid #000000;
+background-color: #313131;
+background-image: linear-gradient(to top, #181818 0%, #2c2c2c 100%);
+border-radius: 5px;
+position: absolute;
+text-align: center;
+line-height: 30px;
+left: 106px;
+top: 270px;
+}
+
+.dwa {
+  /* Style for "bttn bg co" */
+width: 45px;
+height: 30px;
+box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45), 0 0 0 rgba(255, 255, 255, 0.05), inset 0 0 3px rgba(255, 255, 255, 0.25);
+border: 1px solid #000000;
+background-color: #313131;
+background-image: linear-gradient(to top, #181818 0%, #2c2c2c 100%);
+border-radius: 5px;
+position: absolute;
+text-align: center;
+line-height: 30px;
+left: 106px;
+top: 220px;
+}
+
+.piec {
+  /* Style for "bttn bg co" */
+width: 45px;
+height: 30px;
+box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45), 0 0 0 rgba(255, 255, 255, 0.05), inset 0 0 3px rgba(255, 255, 255, 0.25);
+border: 1px solid #000000;
+background-color: #313131;
+background-image: linear-gradient(to top, #181818 0%, #2c2c2c 100%);
+border-radius: 5px;
+position: absolute;
+text-align: center;
+line-height: 30px;
+left: 106px;
+top: 170px;
+}
+
+.osiem {
+  /* Style for "bttn bg co" */
+width: 45px;
+height: 30px;
+box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45), 0 0 0 rgba(255, 255, 255, 0.05), inset 0 0 3px rgba(255, 255, 255, 0.25);
+border: 1px solid #000000;
+background-color: #313131;
+background-image: linear-gradient(to top, #181818 0%, #2c2c2c 100%);
+border-radius: 5px;
+position: absolute;
+text-align: center;
+line-height: 30px;
+left: 106px;
+top: 120px;
+}
+
+.kasuj {
+  /* Style for "bttn bg co" */
+width: 45px;
+height: 30px;
+box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45), 0 0 0 rgba(255, 255, 255, 0.05), inset 0 0 3px rgba(255, 255, 255, 0.25);
+border: 1px solid #000000;
+background-color: #313131;
+background-image: linear-gradient(to top, #181818 0%, #2c2c2c 100%);
+border-radius: 5px;
+position: absolute;
+text-align: center;
+line-height: 30px;
+left: 166px;
+top: 270px;
+}
+
+.trzy {
+  /* Style for "bttn bg co" */
+width: 45px;
+height: 30px;
+box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45), 0 0 0 rgba(255, 255, 255, 0.05), inset 0 0 3px rgba(255, 255, 255, 0.25);
+border: 1px solid #000000;
+background-color: #313131;
+background-image: linear-gradient(to top, #181818 0%, #2c2c2c 100%);
+border-radius: 5px;
+position: absolute;
+text-align: center;
+line-height: 30px;
+left: 166px;
+top: 220px;
+}
+
+.szesc {
+  /* Style for "bttn bg co" */
+width: 45px;
+height: 30px;
+box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45), 0 0 0 rgba(255, 255, 255, 0.05), inset 0 0 3px rgba(255, 255, 255, 0.25);
+border: 1px solid #000000;
+background-color: #313131;
+background-image: linear-gradient(to top, #181818 0%, #2c2c2c 100%);
+border-radius: 5px;
+position: absolute;
+text-align: center;
+line-height: 30px;
+left: 166px;
+top: 170px;
+}
+
+.dziewiec {
+  /* Style for "bttn bg co" */
+width: 45px;
+height: 30px;
+box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45), 0 0 0 rgba(255, 255, 255, 0.05), inset 0 0 3px rgba(255, 255, 255, 0.25);
+border: 1px solid #000000;
+background-color: #313131;
+background-image: linear-gradient(to top, #181818 0%, #2c2c2c 100%);
+border-radius: 5px;
+position: absolute;
+text-align: center;
+line-height: 30px;
+left: 166px;
+top: 120px;
+}
+
+.rownasie {
+  /* Style for "bttn bg co" */
+width: 105px;
+height: 30px;
+box-shadow: 0 1px 0 rgba(0, 0, 0, 0.55), 0 0 0 rgba(255, 255, 255, 0.1), inset 0 0 3px rgba(255, 255, 255, 0.8);
+border: 1px solid #000000;
+background-color: #313131;
+background-image: linear-gradient(to top, #ffa837 0%, #ffba4c 100%);
+border-radius: 5px;
+position: absolute;
+text-align: center;
+line-height: 30px;
+left: 166px;
+top: 320px;
+}
+
+.dodawanie {
+  /* Style for "bttn bg co" */
+width: 45px;
+height: 30px;
+box-shadow: 0 1px 0 rgba(0, 0, 0, 0.55), 0 0 0 rgba(255, 255, 255, 0.1), inset 0 0 3px rgba(255, 255, 255, 0.55);
+border: 1px solid #000000;
+background-color: #313131;
+background-image: linear-gradient(to top, #ec5d6a 0%, #f6717d 100%);
+border-radius: 5px;
+position: absolute;
+text-align: center;
+line-height: 30px;
+left: 226px;
+top: 270px;
+}
+
+.odejmowanie {
+  /* Style for "bttn bg co" */
+width: 45px;
+height: 30px;
+box-shadow: 0 1px 0 rgba(0, 0, 0, 0.55), 0 0 0 rgba(255, 255, 255, 0.1), inset 0 0 3px rgba(255, 255, 255, 0.55);
+border: 1px solid #000000;
+background-color: #313131;
+background-image: linear-gradient(to top, #ec5d6a 0%, #f6717d 100%);
+border-radius: 5px;
+position: absolute;
+text-align: center;
+line-height: 30px;
+left: 226px;
+top: 220px;
+}
+
+.mnozenie {
+  /* Style for "bttn bg co" */
+width: 45px;
+height: 30px;
+box-shadow: 0 1px 0 rgba(0, 0, 0, 0.55), 0 0 0 rgba(255, 255, 255, 0.1), inset 0 0 3px rgba(255, 255, 255, 0.55);
+border: 1px solid #000000;
+background-color: #313131;
+background-image: linear-gradient(to top, #ec5d6a 0%, #f6717d 100%);
+border-radius: 5px;
+position: absolute;
+text-align: center;
+line-height: 30px;
+left: 226px;
+top: 170px;
+}
+
+.dzielenie {
+  /* Style for "bttn bg co" */
+width: 45px;
+height: 30px;
+box-shadow: 0 1px 0 rgba(0, 0, 0, 0.55), 0 0 0 rgba(255, 255, 255, 0.1), inset 0 0 3px rgba(255, 255, 255, 0.55);
+border: 1px solid #000000;
+background-color: #313131;
+background-image: linear-gradient(to top, #ec5d6a 0%, #f6717d 100%);
+border-radius: 5px;
+position: absolute;
+text-align: center;
+line-height: 30px;
+left: 226px;
+top: 120px;
+}
+
+input[type="button"]:active {
+  transform: translateY(1px);
+}
